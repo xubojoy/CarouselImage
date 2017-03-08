@@ -10,6 +10,7 @@
 
 @interface ViewController : UIViewController
 
-
+@property (nonatomic, copy) void (^itemDidScrollOperationBlock)(NSInteger currentIndex);
+@property (nonatomic ,strong) NSArray *imagePathsGroup;
 @end
 
